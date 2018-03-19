@@ -147,6 +147,7 @@ class Activity {
    * Set both the timestamps in one function
    * @param {number|Date} start Unix timestamp for when the game will end
    * @param {number|Date} [end] Unix timestamp for the start of the game
+   * @returns {Activity}
    */
   setTimestamps(start, end) {
     this.startTimestamp = start;
